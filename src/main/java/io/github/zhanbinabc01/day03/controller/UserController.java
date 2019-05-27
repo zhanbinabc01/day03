@@ -9,7 +9,7 @@ public class UserController {
 	
 	@RequestMapping("show_index")
 	public String showIndex(Model model) {
-		System.out.println("v1测试提交更新+5)");
+		System.out.println("hot_fix分支创建");
 		model.addAttribute("msg", "userController传来信息");
 		model.addAttribute("msg3", "userController传来信息3");
 		model.addAttribute("msg2", "userController传来信息2");
