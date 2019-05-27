@@ -10,6 +10,7 @@ public class UserController {
 	@RequestMapping("show_index")
 	public String showIndex(Model model) {
 		model.addAttribute("msg", "userController传来信息");
+		model.addAttribute("msg3", "userController传来信息3");
 		return "index";
 	}
 }
